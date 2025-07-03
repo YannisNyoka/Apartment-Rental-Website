@@ -28,9 +28,11 @@
       <button class="button green block margin-top" type="button">
         <i class="fa fa-search"></i> Search availability
       </button>
-    <p><i class="fa fa-building"></i> Apartment</p>
-    <p><i class="fa fa-wifi"></i> Subscribe</p>
-    <p><i class="fa fa-envelope"></i> Contact</p>
+      <div class="space">
+   <div class="space"> <p ><i class="fa fa-building "></i> Apartment</p></div>
+   <div class="space"> <p ><i class="fa fa-wifi "></i> Subscribe</p></div>
+   <div class="space"> <p ><i class="fa fa-envelope "></i> Contact</p></div>
+    </div>
      </form>
   </div>
   <div class="main-content">
@@ -40,10 +42,10 @@
       <div class="img-label">Living Room</div>
     </div>
     <div class="gallery">
-      <img src="images/livingroom2.jpg" alt="Living Room">
-      <img src="images/diningroom.jpg" alt="Dining Room">
-      <img src="images/bedroom.jpg" alt="Bedroom">
-      <img src="images/livingroom.jpg" alt="Bathroom">
+      <img src="images/livingroom2.jpg" alt="Living Room" class="blured-image">
+      <img src="images/diningroom.jpg" alt="Dining Room"class="blured-image">
+      <img src="images/bedroom.jpg" alt="Bedroom"class="blured-image">
+      <img src="images/livingroom.jpg" alt="Bathroom"class="blured-image">
     </div>
     
     <h2 class="margin-top">The space</h2>
@@ -94,7 +96,7 @@
         <h3>Rules</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <p>Subscribe to receive updates on available dates and special offers.</p>
-        <button class="button green third" onclick="document.getElementById('subscribe').style.display='block'">Subscribe</button>
+        <button class="button green third" id='buttonID'>Subscribe</button>
       </div>
     </div>
     <div class="row-padding w3-margin-bottom" style="max-width:600px;">
@@ -117,4 +119,10 @@
     </footer>
   </div>
 </body>
-</html> send-message"
+<script>
+  function test() {
+  alert('We are done with the assignment!');
+}
+document.getElementById('buttonID').onclick = test;
+</script>
+</html> 
