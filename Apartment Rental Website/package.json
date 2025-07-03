@@ -1,0 +1,8 @@
+{
+  "name": "my-static-site",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'Nothing to start'",
+    "build": "echo 'Nothing to build'"
+  }
+}
