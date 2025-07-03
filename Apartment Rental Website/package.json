@@ -1,8 +1,9 @@
 {
-  "name": "my-static-site",
+  "name": "apartment-rental-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'Nothing to start'",
-    "build": "echo 'Nothing to build'"
+    "start": "echo 'Static site — no start script needed'",
+    "build": "echo 'Static site — no build needed'"
   }
 }
+
